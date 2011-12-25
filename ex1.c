@@ -1,8 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
-	puts("Hello World.");
-	puts("I am feeling great today\nare you?");
+int main() {
+	printf("hello world");
 	return 0;
 }

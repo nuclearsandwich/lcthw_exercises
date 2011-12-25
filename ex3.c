@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-int main()
-{
-	int age = 23;
-	int height = 78;
+int main() {
+	int age = 42;
+	int height = 72;
 
-	printf("I am %d years old\n", age);
-	printf("and I am %d inches tall.\n", height);
+	printf("My age is %d.\n", age);
+	printf("My height is %d.\n", height);
 
 	return 0;
 }
