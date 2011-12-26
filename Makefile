@@ -1,6 +1,6 @@
 CFLAGS=-Wall -g
 
-all: ex1 ex3 ex4 ex5 ex6
+all: ex1 ex3 ex4 ex5 ex6 ex7
 
 run: all
 	./ex1
@@ -12,6 +12,8 @@ run: all
 	./ex5
 	echo
 	./ex6
+	echo
+	./ex7
 
 clean:
-	rm -rf ex1 ex3 ex4 ex5 ex*.dSYM
+	rm -rf ex1 ex3 ex4 ex5 ex6 ex7 ex*.dSYM
